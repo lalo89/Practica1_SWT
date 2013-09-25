@@ -1,7 +1,7 @@
 require 'twitter'
 require './configure'
 
-screen_name = ARGV[0] || 'e_Delgado89'
+screen_name = ARGV[0] || 'timoreilly'
 a_user = Twitter.user(screen_name)
 
 puts "Username   : #{a_user.screen_name}"

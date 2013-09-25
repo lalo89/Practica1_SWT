@@ -8,6 +8,7 @@ name = String.new ARGV[0]
 
 user = Hash.new
 
+# Iterate friends, hash their followers
 friends = Twitter.friend_ids(name)
 
 friends.ids.each do |fid|
